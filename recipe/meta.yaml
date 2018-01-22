@@ -10,8 +10,8 @@ package:
 source:
   fn: scales_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/scales_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/scales/scales_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/scales_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/scales/scales_{{ version }}.tar.gz
   sha256: dbfcc0817c4ab8b8777ec7d68ebfe220177c193cfb5bd0e8ba5d365dbfe3e97d
 
 
